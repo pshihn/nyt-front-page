@@ -1,0 +1,29 @@
+{
+  "name": "nyt-front-page",
+  "version": "0.0.1",
+  "description": "Query NYTimes to see if a word appears in an article featured in the front page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshihn/nyt-front-page.git"
+  },
+  "keywords": [
+    "nytimes",
+    "media",
+    "datajournalism",
+    "journalism"
+  ],
+  "author": "Preet Shihn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pshihn/nyt-front-page/issues"
+  },
+  "homepage": "https://github.com/pshihn/nyt-front-page#readme",
+  "dependencies": {
+    "moment": "^2.20.1",
+    "node-fetch": "^2.0.0"
+  }
+}
